@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gatsby develop -p 9988 -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.19",
+    "@mdx-js/react": "^1.6.19",
+    "babel-plugin-styled-components": "^1.11.1",
+    "gatsby": "^2.24.91",
+    "gatsby-plugin-mdx": "^1.2.52",
+    "gatsby-plugin-styled-components": "^3.3.14",
+    "gatsby-source-filesystem": "^2.3.37",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.0"
+  }
+}
