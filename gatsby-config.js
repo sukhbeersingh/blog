@@ -2,14 +2,13 @@ const siteMetadata = {
   title: `Dreamy Traveller blog`,
   description: `This is my life blog where I put down important things I learn.`,
   image: `to-change`,
-  siteUrl: `https://sukhbeersingh.github.io/blog/`,
+  siteUrl: `https://sukhbeersingh-blog.netlify.app/`,
   siteLanguage: `en_CA`,
   siteLocale: `en_ca`,
   authorName: `Sukhbeer`,
 };
 
 module.exports = {
-  pathPrefix: "/blog",
   siteMetadata,
   plugins: [
     `gatsby-plugin-styled-components`,
